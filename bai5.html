@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=parseInt(prompt("nhap diem bai kiem tra"));
+    let b=parseInt(prompt("nhap diem giua ki"));
+    let c=parseInt(prompt("nhap diem cuoi ki"));
+    let x = (a + 2*b + 3*c)/6;
+    if (x >= 8)
+        document.write("la hoc sinh gioi");
+    else if (x >=6.5 && x <8) 
+        document.write("la hoc sinh kha");
+    else if (x >= 5 && x < 6.5)
+        document.write("la hoc sinh trung binh");
+    else
+        document.write("la hoc sinh yeu");
+</script>
+
+</body>
+</html>
